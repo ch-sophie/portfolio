@@ -10,7 +10,7 @@ function Main() {
       <div className="one">
         <section className="name">
           <h1>Cheng Sophie</h1>
-            <h2>Junior web developer</h2>
+          <h2>Junior web developer</h2>
         </section>
       </div>
     <div className="two">

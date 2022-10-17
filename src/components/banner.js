@@ -2,7 +2,7 @@ import "../App.css";
 
 function Banner() {
     return (
-        <div  className="flex-container">
+        <div className="flex-container">
             <nav>
                 <a href="https://ch-sophie.github.io/vcard">Home</a>
                 <a href="https://ch-sophie.github.io/vcard/about">About</a> 
