@@ -63,6 +63,7 @@ h1{
 @media screen and (max-width:799px) {
     body{
         background-image: url("./images/mountains.jpeg");
+        background-size: auto;
     }
     a:link {
         color: #ffffff;
@@ -269,6 +270,7 @@ h1{
     .sectionAbout{
         width: 180%;
         padding:20px;
+        height: 90vh;
     }
     .sectionAbout:hover{
         width: 180%;
