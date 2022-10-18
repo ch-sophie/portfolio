@@ -29,7 +29,7 @@ function About() {
                             <a target="_blank" rel="noopener noreferrer" href="https://ch-sophie.github.io/My-CV/" title="myCV"><i class="iconsAbout fa-regular fa-id-badge"></i></a>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sophie-cheng03/" title="myLinkedIn"><i class="iconsAbout fa-brands fa-linkedin"></i></a>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/ch-sophie" title="myGithub"><i class="iconsAbout fa-brands fa-github"></i></a>
-                            <Link to="/portfolio" target="_blank" title="myPortfolio"><i class="iconsAbout fa-regular fa-folder-open"></i></Link>
+                            <Link to="/portfolio" title="myPortfolio"><i class="iconsAbout fa-regular fa-folder-open"></i></Link>
                         </div>
                     </div>
                 </div>
