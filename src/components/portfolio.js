@@ -1,5 +1,8 @@
 import "../App.css";
 import { Link } from "react-router-dom";
+import card2 from "../images/card2.png";
+import card3 from "../images/card3.png";
+import card4 from "../images/card4.png";
 
 function Portfolio() {
     return(
@@ -15,7 +18,7 @@ function Portfolio() {
                     <div className="flip-card-portfolio">
                         <div className="flip-card-inner-portfolio">
                             <div className="flip-card-front-portfolio">
-                                <img className="cardimage" src="" alt="Project" style={{width:"350px", height:"260px"}} />
+                                <img className="cardimage" src={card3} alt="Project" style={{width:"350px", height:"260px"}} />
                             </div>
                             <div className="flip-card-back-portfolio">
                                 <h1 className="titleProject">Cookie Clicker project</h1>
@@ -30,7 +33,7 @@ function Portfolio() {
                     <div className="flip-card-portfolio">
                         <div className="flip-card-inner-portfolio">
                             <div className="flip-card-front-portfolio">
-                                <img className="cardimage" src="" alt="Project" style={{width:"350px", height:"260px"}} />
+                                <img className="cardimage" src={card4} alt="Project" style={{width:"350px", height:"260px"}} />
                             </div>
                             <div className="flip-card-back-portfolio">
                                 <h1 className="titleProject">Food guide project</h1>
@@ -45,7 +48,7 @@ function Portfolio() {
                     <div className="flip-card-portfolio">
                         <div className="flip-card-inner-portfolio">
                             <div className="flip-card-front-portfolio">
-                                <img className="cardimage" src="" alt="Project" style={{width:"350px", height:"260px"}} />
+                                <img className="cardimage" src={card2} alt="Project" style={{width:"350px", height:"260px"}} />
                             </div>
                             <div className="flip-card-back-portfolio">
                                 <h1 className="titleProject">Random quotes generator</h1>

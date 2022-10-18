@@ -321,6 +321,10 @@ h1{
     margin: auto;
     padding-top: 110px;
 }
+.iconsPort{
+    font-size: 180%;
+    letter-spacing: 10px;
+}
 .flip-card-portfolio{
     background-color: transparent;
     width: 350px;
