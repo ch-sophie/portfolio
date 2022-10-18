@@ -6,6 +6,7 @@ function About() {
     const dev = "Junior web developer";
 
     return (
+        <root id="rootAbout">
         <div id="containerAbout">
             <section className="sectionAbout">
                 <div className="flip-card-about">
@@ -33,6 +34,7 @@ function About() {
                 </div>
             </section>
         </div>
+        </root>
     )
 }
 
