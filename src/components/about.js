@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 import portrait from "../images/image3.jpg";
 
@@ -24,11 +25,11 @@ function About() {
                         </div>
                         <div className="flip-card-back-about">
                             <h2 className="contact">Contact</h2>
-                            <a target="_blank" rel="noopener noreferrer" href="https://delightful-clafoutis-008edf.netlify.app/" title="homepage"><i class="iconsAbout fa-solid fa-rocket"></i></a>
+                            <Link to="/" title="homepage"><i class="iconsAbout fa-solid fa-rocket"></i></Link>
                             <a target="_blank" rel="noopener noreferrer" href="https://ch-sophie.github.io/My-CV/" title="myCV"><i class="iconsAbout fa-regular fa-id-badge"></i></a>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sophie-cheng03/" title="myLinkedIn"><i class="iconsAbout fa-brands fa-linkedin"></i></a>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/ch-sophie" title="myGithub"><i class="iconsAbout fa-brands fa-github"></i></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://ch-sophie.github.io/vcard/portfolio" title="myPortfolio"><i class="iconsAbout fa-regular fa-folder-open"></i></a>
+                            <Link to="/portfolio" target="_blank" title="myPortfolio"><i class="iconsAbout fa-regular fa-folder-open"></i></Link>
                         </div>
                     </div>
                 </div>

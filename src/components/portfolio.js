@@ -12,13 +12,17 @@ function Portfolio() {
             <Link to="/about">About</Link>
             <Link to="/portfolio">Portfolio</Link>
             </nav>
+            <section className="iconsPort">
+                <a target="blank" href="https://www.linkedin.com/in/sophie-cheng03/"><i class="fa-brands fa-linkedin"></i></a>
+                <a target="blank" href="https://github.com/ch-sophie"><i class="fa-brands fa-github"></i></a>
+            </section>
             <div className="cardblock">
                 {/* card 1 */}
                 <section className="cardPort">
                     <div className="flip-card-portfolio">
                         <div className="flip-card-inner-portfolio">
                             <div className="flip-card-front-portfolio">
-                                <img className="cardimage" src={card3} alt="Project" style={{width:"350px", height:"260px"}} />
+                                <img className="cardimage" src={card3} alt="Project" style={{width:"360px", height:"260px"}} />
                             </div>
                             <div className="flip-card-back-portfolio">
                                 <h1 className="titleProject">Cookie Clicker project</h1>
@@ -33,7 +37,7 @@ function Portfolio() {
                     <div className="flip-card-portfolio">
                         <div className="flip-card-inner-portfolio">
                             <div className="flip-card-front-portfolio">
-                                <img className="cardimage" src={card4} alt="Project" style={{width:"350px", height:"260px"}} />
+                                <img className="cardimage" src={card4} alt="Project" style={{width:"360px", height:"260px"}} />
                             </div>
                             <div className="flip-card-back-portfolio">
                                 <h1 className="titleProject">Food guide project</h1>
@@ -48,7 +52,7 @@ function Portfolio() {
                     <div className="flip-card-portfolio">
                         <div className="flip-card-inner-portfolio">
                             <div className="flip-card-front-portfolio">
-                                <img className="cardimage" src={card2} alt="Project" style={{width:"350px", height:"260px"}} />
+                                <img className="cardimage" src={card2} alt="Project" style={{width:"360px", height:"260px"}} />
                             </div>
                             <div className="flip-card-back-portfolio">
                                 <h1 className="titleProject">Random quotes generator</h1>
@@ -59,10 +63,6 @@ function Portfolio() {
                     </div>
                 </section>
             </div>
-            <section className="iconsPort">
-            <a target="blank" href="https://www.linkedin.com/in/sophie-cheng03/"><i class="fa-brands fa-linkedin"></i></a>
-            <a target="blank" href="https://github.com/ch-sophie"><i class="fa-brands fa-github"></i></a>
-            </section>
             <div class="twoPort">
                 <section className="footerPort">
                     <p><q>Continuous effort, not strength or intelligence, is the key to unlocking our potential.</q></p>

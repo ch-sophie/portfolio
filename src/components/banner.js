@@ -7,7 +7,7 @@ function Banner() {
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
-                <a href="https://ch-sophie.github.io/vcard/portfolio">Portfolio</a> 
+                <Link to="/portfolio">Portfolio</Link> 
             </nav>
             <section className="icons">
                 <a target="blank" href="https://www.linkedin.com/in/sophie-cheng03/"><i class="fa-brands fa-linkedin"></i></a>

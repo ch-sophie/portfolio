@@ -167,7 +167,7 @@ h1{
 }
 @media screen and (min-width:768px) {
     body{
-        overflow: hidden;
+        overflow: scroll;
     }
 }
 @media screen and (min-width:850px) and (max-width:989px) {  
@@ -319,18 +319,20 @@ h1{
     display: flex;
     flex-direction: row;
     margin: auto;
-    padding-top: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .iconsPort{
+    margin-top:50px;
     font-size: 180%;
     letter-spacing: 10px;
 }
 .flip-card-portfolio{
     background-color: transparent;
-    width: 350px;
+    width: 360px;
     height: 260px;
     perspective: 1000px;
-    margin: 30px;
+    margin-right: 20px;
 }
 .flip-card-inner-portfolio{
     position: relative;
@@ -356,16 +358,27 @@ h1{
     color: #000000;
 }
 .flip-card-back-portfolio{
-    background-color: #142b62;
-    color: white;
+    background-color: #fff;
+    opacity: 0.8;
+    color: #33658a;
     transform: rotateY(180deg);
 }
 .linkcard:hover{
     text-decoration: underline;
+    color: #fc9f5b;
 }
-@media screen and (max-width:768px){
+.twoPort{
+    margin:100px;
+}
+@media screen and (max-width:1150px){
     .cardblock{
         display: flex;
         flex-direction: column;
     }
-  }
+    .flip-card-portfolio{
+        margin: 20px;
+    }
+    .twoPort{
+        margin:0;
+    }
+}
