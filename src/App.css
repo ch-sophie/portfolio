@@ -6,23 +6,23 @@ body{
     font-weight: bold;
     /* overflow: hidden; */
 }
-a:link {
+a:link{
     color: #fc9f5b;
     text-decoration: none;
 }
-a:visited {
+a:visited{
     color: #fc9f5b;
     text-decoration: none;
 }
-a:hover {
-    color: #409059;
+a:hover{
+    color: #33658a;
     text-decoration: none;
 }
-a:active {
+a:active{
     color:#fc9f5b;
     text-decoration: none;
 }
-nav {
+nav{
     display: flex;
     justify-content: space-evenly;
     font-size: 110%;
@@ -32,7 +32,7 @@ nav {
     right: 300px;
     padding: 5px;
 }
-.flex-container {
+.flex-container{
     display: flex;
     flex-direction: column;
     position:relative;
@@ -40,27 +40,26 @@ nav {
     margin: 10px;
     padding: 10px;
 }
-.icons {
+.icons{
     margin-top: 50px;
     font-size: 180%;
     letter-spacing: 10px;
 }
-.one {
+.one{
     text-align: center;
     position: relative;
     margin: 120px;
 }
-h1 {
+h1{
     font-size: 250%;
 }
-.two {
+.two{
     text-align: center;
     position: relative;
     /* margin: 50px; */
     /* top: 50px; */
     /* border: 2px solid #fc9f5b; */
 }
-
 @media screen and (max-width:799px) {
     body{
         background-image: url("./images/mountains.jpeg");
@@ -82,8 +81,6 @@ h1 {
         text-decoration: none;
     }
 }
-
-/* media screen */
 @media screen and (max-width: 300px) {
     .icons {
         font-size: 150%;
@@ -108,7 +105,6 @@ h1 {
         padding-right: 0;
     }
 }
-
 @media screen and (min-width:301px) and (max-width:350px){
     .icons {
         font-size: 150%;
@@ -132,7 +128,6 @@ h1 {
         padding-right: 0;
     }
 }
-
 @media screen and (min-width:351px) and (max-width:450px) {
     .icons {
         font-size: 180%;
@@ -154,7 +149,6 @@ h1 {
         top: 40px;
     }
 }
-
 @media screen and (min-width:451px) and (max-width:768px){
     nav{
         padding:10px;
@@ -171,7 +165,6 @@ h1 {
         margin: 100px;
     }
 }
-
 @media screen and (min-width:768px) {
     body{
         overflow: hidden;
@@ -185,6 +178,138 @@ h1 {
 @media screen and (min-width:990px) {  
     .two{
         top: 100px;
+    }
+}
+
+/* about page */
+#root{
+    height: 100vh;
+    margin: 30px;
+}
+#containerAbout{
+    position: relative;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.sectionAbout{
+    position: relative;
+    margin: auto;
+    width: 55%;
+    height: 80vh;
+    background-color:#f0f1f5e9;
+    opacity: 0.9;
+    padding: 30px;
+    border: 2px none;
+    border-radius: 10px;
+    box-shadow: 3px 5px 2px #1b3b54;
+    transition: width 3s;
+}
+.sectionAbout{transition-timing-function: ease}
+.sectionAbout:hover{
+    width: 55%;
+    opacity: 1;
+}
+.pAbout{
+    text-align: justify;
+    font-weight: normal;
+}
+.image1{
+    float: none;
+    border-radius: 50%;
+}
+.title2{
+    text-align: center !important;
+    font-weight: 600;
+    color: #fc9f5b;
+}
+.flip-card-about{
+    width: 100%;
+    height: 560px;
+    perspective: 1000px;
+}
+.flip-card-inner-about{
+    position: relative;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}  
+.flip-card-about:hover .flip-card-inner-about{
+    transform: rotateY(180deg);
+}
+.flip-card-front-about, .flip-card-back-about{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}  
+.flip-card-front-about{
+    background-color: #bbb;
+    color: #000000;
+}
+.flip-card-back-about {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    font-weight: 600;
+    color: #fc9f5b;
+}
+.iconsAbout{
+    font-size: 2em;
+    padding: 30px;
+    color:#fc9f5b;
+}
+.iconsAbout:hover{
+    color:#33658a;
+}
+/* media screen */
+@media screen and (max-width:428px) {
+    .sectionAbout{
+        width: 180%;
+    }
+    .sectionAbout:hover{
+        width: 180%;
+    }
+    #containerAbout{
+        margin:0;
+    }
+}
+@media screen and (min-width:429px) and (max-width:530px) {
+    .sectionAbout{ 
+        width:150%;
+    }
+    .sectionAbout:hover{
+        width:150%;
+    }
+    #containerAbout{
+        margin:22px;
+    }
+}
+@media screen and (min-width:531px) and (max-width:635px) {
+    .sectionAbout{
+        width: 120%;
+    }
+    .sectionAbout:hover{
+        width: 120%;
+    }
+    #containerAbout{
+        margin-left:70px;
+        margin-right:50px;
+    }
+}
+@media screen and (min-width:636px) and (max-width:824px) {
+    .sectionAbout{
+        width: 100%;
+    }
+    .sectionAbout:hover{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 825px) and (max-width:1231px) {
+    #containerAbout{
+        max-width: 70%;
     }
 }
 
