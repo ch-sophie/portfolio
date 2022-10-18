@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 
 function Banner() {
     return (
         <div className="flex-container">
             <nav>
-                <a href="https://delightful-clafoutis-008edf.netlify.app/">Home</a>
-                <a href="https://delightful-clafoutis-008edf.netlify.app/about">About</a> 
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
                 <a href="https://ch-sophie.github.io/vcard/portfolio">Portfolio</a> 
             </nav>
             <section className="icons">
