@@ -4,8 +4,8 @@ function Banner() {
     return (
         <div className="flex-container">
             <nav>
-                <a href="https://ch-sophie.github.io/vcard">Home</a>
-                <a href="https://ch-sophie.github.io/vcard/about">About</a> 
+                <a href="https://delightful-clafoutis-008edf.netlify.app/">Home</a>
+                <a href="https://delightful-clafoutis-008edf.netlify.app/about">About</a> 
                 <a href="https://ch-sophie.github.io/vcard/portfolio">Portfolio</a> 
             </nav>
             <section className="icons">

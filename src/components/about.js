@@ -23,7 +23,7 @@ function About() {
                         </div>
                         <div className="flip-card-back-about">
                             <h2 className="contact">Contact</h2>
-                            <a target="_blank" rel="noopener noreferrer" href="https://634d5c115636f8355447926a--delightful-clafoutis-008edf.netlify.app/" title="homepage"><i class="iconsAbout fa-solid fa-rocket"></i></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://delightful-clafoutis-008edf.netlify.app/" title="homepage"><i class="iconsAbout fa-solid fa-rocket"></i></a>
                             <a target="_blank" rel="noopener noreferrer" href="https://ch-sophie.github.io/My-CV/" title="myCV"><i class="iconsAbout fa-regular fa-id-badge"></i></a>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sophie-cheng03/" title="myLinkedIn"><i class="iconsAbout fa-brands fa-linkedin"></i></a>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/ch-sophie" title="myGithub"><i class="iconsAbout fa-brands fa-github"></i></a>
