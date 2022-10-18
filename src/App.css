@@ -367,6 +367,9 @@ h1{
     text-decoration: underline;
     color: #fc9f5b;
 }
+.linkcard{
+    color: #fc9f5b !important;
+}
 .twoPort{
     margin:100px;
 }
