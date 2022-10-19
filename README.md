@@ -15,7 +15,5 @@ https://delightful-clafoutis-008edf.netlify.app/
 <img src="./src/images/preview.png" style="width:40%;" />   
 
 **Mobile**   
-<pre>
-<img src="./src/images/preview3.png" style="width:40%" />   
+<img src="./src/images/preview3.png" style="width:40%" /> 
 <img src="./src/images/preview4.png" style="width:40%" />
-</pre>
