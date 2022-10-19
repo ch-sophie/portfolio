@@ -1,9 +1,10 @@
 # Portfolio
 
-### :books: [See the link here] (https://delightful-clafoutis-008edf.netlify.app/)
+### :books: [See the page here](https://delightful-clafoutis-008edf.netlify.app/)
 
 ### The mission: 
-Create my vcard using HTML/CSS. This is an update with React JS
+Create my vcard using HTML/CSS.   
+This is an update with React JS.
 
 ### Features:
 - Homepage
