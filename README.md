@@ -3,7 +3,7 @@
 ### :books: [See the page here](https://delightful-clafoutis-008edf.netlify.app/)
 
 ### The mission: 
-Create my vcard using HTML/CSS.   
+Create my vcard using HTML/CSS. :pencil2: [From here](https://github.com/ch-sophie/vcard)      
 This is an update with React JS.
 
 ### Features:
