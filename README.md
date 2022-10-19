@@ -9,7 +9,13 @@ https://delightful-clafoutis-008edf.netlify.app/
 
 ### Preview:
 **Homepage**   
-<img src="./images/preview2.png" style="width:40%;" />   
+<img src="./src/images/preview2.png" style="width:40%;" />   
 
 **Portfolio**   
-<img src="./images/preview.png" style="width:40%;" />
+<img src="./src/images/preview.png" style="width:40%;" />   
+
+**Mobile**   
+<pre>
+<img src="./src/images/preview3.png" style="width:40%" />   
+<img src="./src/images/preview4.png" style="width:40%" />
+</pre>
