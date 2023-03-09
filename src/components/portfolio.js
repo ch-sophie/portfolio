@@ -2,7 +2,7 @@ import "../App.css";
 import { Link } from "react-router-dom";
 import card2 from "../images/card2.png";
 import card3 from "../images/card3.png";
-import card4 from "../images/card4.png";
+import card5 from "../images/card5.png";
 
 function Portfolio() {
     return(
@@ -37,12 +37,12 @@ function Portfolio() {
                     <div className="flip-card-portfolio">
                         <div className="flip-card-inner-portfolio">
                             <div className="flip-card-front-portfolio">
-                                <img className="cardimage" src={card4} alt="Project" style={{width:"360px", height:"260px"}} />
+                                <img className="cardimage" src={card5} alt="Project" style={{width:"360px", height:"260px"}} />
                             </div>
                             <div className="flip-card-back-portfolio">
-                                <h1 className="titleProject">Food guide project</h1>
-                                <h3 className="subProject">In React, Node JS and MongoDB</h3>
-                                <p className="pProject"><a className="linkcard" href="https://github.com/ch-sophie/food-guide"> See the project here</a></p>
+                                <h1 className="titleProject">Weather app project</h1>
+                                <h3 className="subProject">In Angular</h3>
+                                <p className="pProject"><a className="linkcard" href="https://github.com/ch-sophie/weather-app"> See the project here</a></p>
                             </div>
                         </div>
                     </div>

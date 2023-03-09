@@ -4,7 +4,7 @@
 
 ### The mission: 
 Create my vcard using HTML/CSS.       
-This is an update with React JS. :pencil2: [From here](https://github.com/ch-sophie/vcard)
+This is an update of my portfolio with React JS. :pencil2: [From here](https://github.com/ch-sophie/vcard)
 
 ### Features:
 - Homepage
@@ -13,12 +13,7 @@ This is an update with React JS. :pencil2: [From here](https://github.com/ch-sop
 
 ### Preview:
 **Homepage**   
-<img src="./src/images/preview2.png" style="width:40%;" />   
-
-**Portfolio**   
-<img src="./src/images/preview.png" style="width:40%;" />   
+<img src="./src/images/preview2.png" style="width:40%;" />    
 
 **Mobile**   
 <img src="./src/images/preview3.png" style="width:40%" />   
-
-<img src="./src/images/preview4.png" style="width:40%" />

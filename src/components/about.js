@@ -18,8 +18,8 @@ function About() {
                             <span className="title2">{dev}</span>
                             <hr />
                             <p className="pAbout">
-                            I graduated in Translation in English-Chinese-French at the Free University of Brussels (ULB). I initially wanted to become a language teacher abroad, I am passionate about languages, learning and teaching, and discovering new cultures. However, after my graduation, I was not sure of the path I chose and I discovered the world of IT, which is very fascinating, and I am now on a journey to become a web developer. I am hardworking, organised and open-minded. <br />
-                            In my free time, I like travelling, hiking, baking (I make great chocolate pecan cookies), solving puzzles and eating. <br />
+                            I graduated in Translation in English-Chinese at ULB. I initially wanted to become a language teacher abroad, I am passionate about languages, learning and teaching, and discovering new cultures. However, after my graduation, I was not sure of the path I chose and I discovered the world of IT, which is very fascinating, and I am now on a journey to become a web developer. I am hardworking, organised and open-minded. <br />
+                            In my free time, I like travelling, hiking, baking (I make great chocolate pecan cookies), solving puzzles and eating.
                             I also love turtles and anything space-related. <i class="fa-solid fa-meteor"></i>
                             </p>
                         </div>

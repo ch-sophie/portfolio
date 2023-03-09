@@ -197,7 +197,7 @@ h1{
     position: relative;
     margin: auto;
     width: 55%;
-    height: 80vh;
+    height: 85vh;
     background-color:#f0f1f5e9;
     opacity: 0.9;
     padding: 30px;
@@ -280,10 +280,7 @@ h1{
     }
 }
 @media screen and (min-width:429px) and (max-width:530px) {
-    .sectionAbout{ 
-        width:150%;
-    }
-    .sectionAbout:hover{
+    .sectionAbout, .sectionAbout:hover{ 
         width:150%;
     }
     #containerAbout{
@@ -291,10 +288,7 @@ h1{
     }
 }
 @media screen and (min-width:531px) and (max-width:635px) {
-    .sectionAbout{
-        width: 120%;
-    }
-    .sectionAbout:hover{
+    .sectionAbout, .sectionAbout:hover{
         width: 120%;
     }
     #containerAbout{
@@ -303,10 +297,7 @@ h1{
     }
 }
 @media screen and (min-width:636px) and (max-width:824px) {
-    .sectionAbout{
-        width: 100%;
-    }
-    .sectionAbout:hover{
+    .sectionAbout, .sectionAbout:hover{
         width: 100%;
     }
 }
