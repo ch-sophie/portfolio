@@ -13,7 +13,7 @@ This is an update of my portfolio with React JS. :pencil2: [From here](https://g
 
 ### Preview:
 **Homepage**   
-<img src="./src/images/preview2.png" style="width:45%;" />    
+<img src="./src/images/preview2.png" style="width:50%;" />    
 
 **Mobile**   
 <img src="./src/images/preview3.png" style="width:38%" />   
