@@ -1,6 +1,6 @@
 # Portfolio
 
-### :books: [See the page here](https://delightful-clafoutis-008edf.netlify.app/)
+### :books: [My portfolio](https://delightful-clafoutis-008edf.netlify.app/)
 
 ### The mission: 
 Create my vcard using HTML/CSS.       
@@ -13,7 +13,7 @@ This is an update of my portfolio with React JS. :pencil2: [From here](https://g
 
 ### Preview:
 **Homepage**   
-<img src="./src/images/preview2.png" style="width:44%;" />    
+<img src="./src/images/preview2.png" style="width:45%;" />    
 
 **Mobile**   
 <img src="./src/images/preview3.png" style="width:38%" />   
